@@ -22,10 +22,72 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-		<groupId>com.oracle</groupId>
-		<artifactId>ojdbc8</artifactId>
-		<version>19.3</version>
-	</dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>19.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/ucp -->
+<dependency>
+    <groupId>com.oracle.ojdbc</groupId>
+    <artifactId>ucp</artifactId>
+    <version>19.3.0.0</version>
+</dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/oraclepki -->
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>oraclepki</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/osdt_cert -->
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>osdt_cert</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/osdt_core -->
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>osdt_core</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/simplefan -->
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>simplefan</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
+<!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/orai18n -->
+<dependency>
+    <groupId>com.oracle.ojdbc</groupId>
+    <artifactId>orai18n</artifactId>
+    <version>19.3.0.0</version>
+</dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/ons -->
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>ons</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.10.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.clerezza.ext/org.json.simple -->
+        <dependency>
+            <groupId>org.apache.clerezza.ext</groupId>
+            <artifactId>org.json.simple</artifactId>
+            <version>0.4</version>
+        </dependency>
     </dependencies>
 
     <build>
